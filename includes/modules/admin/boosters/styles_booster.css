@@ -1,0 +1,14 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:740px;
+	padding:0px 10px 0px 10px;
+}
+.chartL3{
+	padding:3px;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}

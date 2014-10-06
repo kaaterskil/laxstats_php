@@ -1,0 +1,25 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.termsHeader{
+	font-weight:bold;
+	line-height:2em;
+}
+.terms{
+	font-size:11px;
+}
+.terms a:link, .terms a:active, .terms a:visited{
+	color:#000000;
+}
+.terms ul li a:link, .terms ul li a:active, .terms ul li a:visited{
+	color:#000000;
+}
+.terms a:hover, .terms ul li a:hover{
+	color:#cc0000;
+}

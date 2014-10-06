@@ -1,0 +1,23 @@
+/* CSS Document */
+
+.sitemapContainer{
+	position:relative;
+	top:0px;
+	left:30px;
+	width:300px;
+}
+.sitemapCategory{ 
+	padding: 3px 3px 3px 3px;
+	background-color:#333333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	line-height:1.5em;
+	font-weight:bold;
+	color:#FF9933;
+	text-transform:uppercase;
+}
+.sitemap{
+	padding-left:10px;
+	line-height:1.5em;
+	color:#333333;
+}

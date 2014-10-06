@@ -1,0 +1,74 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:740px;
+	padding:0px 10px 0px 10px;
+}
+.chartTitleTC{
+	padding:4px; color:#ffffff;
+	background-color:#000033;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	border-bottom:1px solid #ffffff;
+}
+.chartTitle2{
+	padding: 4px 3px 4px 3px;
+	background-color:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	color:#ffffff;
+	border-bottom:1px solid #ffffff;
+}
+.chartHeaderC1{
+	padding:3px;
+	background-color:#aaaaaa;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	color:#000000;
+}
+.chartHeaderC1 a:link, .chartHeaderC1 a:active, .chartHeaderC1 a:visited{
+	color:#000000;
+}
+.chartHeaderC1 a:hover{
+	color:#ff0000;
+}
+.chartL7{
+	padding: 3px 3px 3px 10px;
+	border-bottom:1px solid #cccccc;
+}
+.chartC3{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}
+.chartR2{
+	padding: 3px 3px 3px 3px;
+	text-align:right;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}
+.chartR2 a:link, .chartR2 a:active, .chartR2 a:visited{
+	color:#000000;
+	font-weight:normal;
+}
+.chartR2 a:hover{
+	color:#000000;
+	font-weight:bold;
+}
+.chartR3B{
+	padding: 3px 3px 3px 3px;
+	font-weight:bold;
+	text-align:right;
+	border-bottom:1px solid #cccccc;
+}

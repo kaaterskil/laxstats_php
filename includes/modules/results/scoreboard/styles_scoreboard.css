@@ -1,0 +1,80 @@
+/* CSS Document */
+
+.findMonth{
+	position: relative;
+	left:0px;
+	top:0px;
+	padding:15px 0px 0px 0px;
+}
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:690px;
+	padding:0px 35px 10px 35px;
+	clear:both;
+}
+.leftScoreboard{
+    display: inline;
+	float:left;
+	margin-right: 30px;
+	z-index:100;
+}
+.rightScoreboard{
+    display: inline;
+    float: right;
+	z-index:1;
+}
+.scoreboardContainer{
+	margin-bottom:20px;
+	width:330px;
+}
+.chartTitleL2{
+	padding:4px;
+	background-color:#003333;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:left;
+	color:#FF9900;
+	border-bottom:1px solid #ffffff;
+}
+.chartL2{
+	padding:3px 5px 3px 0px;
+	color:#000000;
+}
+.chartL3{
+	padding: 3px 3px 3px 0px;
+}
+.chartL3 a:link, .chartL3 a:active, .chartL3 a:visited{
+	color:#000000;
+	font-weight:bold;
+}
+.chartL3 a:hover{
+	color:#cc0000;
+	font-weight:bold;
+}
+.chartC1{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+	color:#000000;
+}
+.chartC2{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+}
+.chartC2 a:link, .chartC2 a:active, .chartC2 a:visited{
+	color:#990000;
+	font-weight:normal;
+}
+.chartC2 a:hover{
+	color:#cc0000;
+	font-weight:normal;
+}
+.chartR1{
+	padding: 3px 5px 3px 3px;
+	text-align:right;
+	color:#000000;
+}

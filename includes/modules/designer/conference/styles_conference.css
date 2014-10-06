@@ -1,0 +1,15 @@
+/* CSS Document */
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.form_container{
+	padding-bottom:15px;
+}
+.results{
+	padding:3px 0px 3px 0px;
+	color:#990000;
+}

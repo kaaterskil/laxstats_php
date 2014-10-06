@@ -1,0 +1,91 @@
+/* CSS Document */
+
+.player_header_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 10px 30px;
+}
+.game_log_detail_wide{
+	position:relative;
+	top:0px;
+	left:5px;
+	width:750px;
+	padding:10px 0px 10px 0px;
+}
+.game_log_detail{
+	position:relative;
+	top:0px;
+	left:30px;
+	width:650px;
+	padding:10px 0px 10px 0px;
+}
+.game_log_summary_wide{
+	position:relative;
+	top:0px;
+	left:30px;
+	width:620px;
+	padding:10px 0px 10px 0px;
+}
+.game_log_summary{
+	position:relative;
+	top:0px;
+	left:30px;
+	width:510px;
+	padding:10px 0px 10px 0px;
+}
+.body_container_summary{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:510px;
+	padding:0px 220px 0px 30px;
+}
+.body_container_goalie_summary{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:620px;
+	padding:0px 110px 0px 30px;
+}
+.body_container_faceoff_summary{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:610px;
+	padding:0px 120px 0px 30px;
+}
+.body_container_detail{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:580px;
+	padding:0px 150px 0px 30px;
+}
+.body_container_goalie_detail{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:680px;
+	padding:0px 50px 0px 30px;
+}
+.body_container_faceoff_detail{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:690px;
+	padding:0px 40px 0px 30px;
+}
+.chartC2{
+	padding:3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}
+.chartC2 a:link, .chartC2 a:active, .chartC2 a:visited{
+	color:#990000;
+}
+.chartC2 a:hover{
+	color:#ff0000;
+}

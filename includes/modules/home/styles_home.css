@@ -1,0 +1,100 @@
+/* CSS Document */
+
+/*------------------------------------------------------------
+CONTAINER STYLES
+------------------------------------------------------------*/
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.left_column{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:250px;
+	padding-top:25px;
+	z-index:100;
+}
+.right_column{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:420px;
+	padding-top:5px;
+	float:right;
+	z-index:1;
+}
+.letterContainer{
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+/*------------------------------------------------------------
+BODY STYLES
+------------------------------------------------------------*/
+.letterText{
+	padding:0px 0px 10px 0px;
+	font-size:11px;
+	line-height:1.5em;
+	color:#333333;
+}
+.letterText a:link, .letterText a:active, .letterText a:visited{
+	color:#333333;
+}
+.letterText a:hover{
+	color:#cc0000;
+}
+.monthText{
+	color:#CC6633;
+}
+
+/*------------------------------------------------------------
+RSS STYLES
+------------------------------------------------------------*/
+.rssContainer{
+	padding:5px 5px 5px 5px;
+	border-right:1px solid #cccccc;
+	border-bottom:1px solid #cccccc;
+	border-left:1px solid #cccccc;
+} 
+.rssHeader{
+	margin-top:10px;
+	padding:5px 10px 5px 10px;
+	background-color:#cccccc;
+	font-size:10px;
+	color:#000000;
+}
+.rssHeader a{
+	color:#000000;
+}
+.rssHeader a:hover{
+	color:#FF0000;
+}
+.rssDate {
+	font-size:8px;
+	color:#666666;
+}
+.rssTitle{
+	padding-top:3px;
+	font-size:10px;
+	color:#990000;
+}
+.rssTitle a{
+	color:#990000;
+}
+.rssTitle a:hover{
+	color:#FF0000;
+}
+.rssTitle2{
+	padding-top:5px;
+	font-size:10px;
+	color:#990000;
+}
+.rssTitle2 a{
+	color:#990000;
+}
+.rssTitle2 a:hover{
+	color:#FF0000;
+}

@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:500px;
+	padding:0px 130px 0px 130px;
+}
+.chartL3{
+	padding:3px;
+	font-style:italic;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}

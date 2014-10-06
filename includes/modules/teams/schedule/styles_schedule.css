@@ -1,0 +1,21 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:720px;
+	padding:0px 20px 0px 20px;
+}
+.chartL3{
+	padding: 3px 3px 3px 10px;
+	color:#cc0000;
+	font-style:italic;
+	border-bottom:1px solid #cccccc;
+}
+.chartC3{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}

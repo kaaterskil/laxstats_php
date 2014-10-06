@@ -1,0 +1,31 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.conference{
+	padding:3px;
+	font-family:Arial, Helvetica, sans-serif;
+	text-transform:uppercase;
+	font-weight:bold;
+	color:#FF9933;
+	background-color:#003333;
+}
+.division{
+	padding:3px;
+	font-weight:bold;
+	color:#000000;
+	background-color:#cccccc;
+}
+.division a:link, .division a:active, .division a:visited{
+	color:#000000;
+	text-decoration:none;
+}
+.division a:hover{
+	color:#cc0000;
+	text-decoration:none;
+}

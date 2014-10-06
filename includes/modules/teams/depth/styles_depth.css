@@ -1,0 +1,18 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.hiddenStat{
+	position:absolute;
+	left:30px;
+	margin-top:3px;
+	background-color:#FFFFCC;
+	border:1px solid #999999;
+	visibility:hidden;
+	z-index:1000;
+}

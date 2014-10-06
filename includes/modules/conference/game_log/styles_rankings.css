@@ -1,0 +1,17 @@
+/* CSS Document */
+
+.team_select{
+	margin-top:15px;
+	float:right;
+}
+.right_menu{
+	padding-bottom:3px;
+	text-align:right;
+}
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:720px;
+	padding:0px 20px 0px 20px;
+}

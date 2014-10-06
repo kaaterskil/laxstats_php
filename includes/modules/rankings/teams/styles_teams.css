@@ -1,0 +1,42 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+	clear:both;
+}
+.ranking_leftTable{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:335px;
+	padding-bottom:20px;
+	z-index:100;
+}
+.ranking_rightTable{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:335px;
+	padding-bottom:20px;
+	float:right;
+	z-index:1;
+}
+.chartL4, .chartC4{
+	padding: 7px 3px 3px 3px;
+	border-bottom:1px solid #cccccc;
+}
+.chartL4 a:link, .chartL4 a:active, .chartL4 a:visited, .chartC4 a:link, .chartC4 a:active, .chartC4 a:visited{
+	color:#000000;
+	font-weight:bold;
+}
+.chartL4 a:hover, .chartC4 a:hover{
+	color:#cc0000;
+	font-weight:bold;
+}
+.chartC4{
+	text-align:center;
+}

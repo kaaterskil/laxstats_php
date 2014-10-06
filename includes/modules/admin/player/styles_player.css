@@ -1,0 +1,69 @@
+/* CSS Document */
+
+.player_header_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 10px 0px;
+}
+.player_select{
+	margin-top:15px;
+	float:right;
+}
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:10px 30px 0px 30px;
+}
+.body_container_summary{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:510px;
+	padding:0px 190px 0px 0px;
+}
+.body_container_goalie_summary{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:620px;
+	padding:0px 80px 0px 0px;
+}
+.body_container_faceoff_summary{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:610px;
+	padding:0px 90px 0px 0px;
+}
+.academic_container{
+	width:480px;
+	float:left;
+}
+.test_container{
+	width:197px;
+	float:right;
+}
+.chartC2{
+	padding:3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}
+.chartC2 a:link, .chartC2 a:active, .chartC2 a:visited{
+	color:#990000;
+}
+.chartC2 a:hover{
+	color:#ff0000;
+}
+.chartL1{
+	padding: 0px 3px 0px 3px;
+}
+.chartL3{
+	padding:3px;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}

@@ -1,0 +1,48 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 10px 30px;
+	clear:both;
+}
+.chartHeaderL1{
+	padding:3px;
+	background-color:#aaaaaa;
+	font-weight:normal;
+	text-transform:uppercase;
+	text-align:left;
+	color:#000000;
+}
+.chartHeaderC1{
+	padding:3px;
+	background-color:#aaaaaa;
+	font-weight:bold;
+	text-transform:uppercase;
+	text-align:center;
+	color:#000000;
+}
+.chartC2{
+	padding: 3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}
+.chartC2 a:link, .chartC2 a:active, .chartC2 a:visited{
+	font-weight:normal;
+	color:#990000;
+}
+.chartC2 a:hover{
+	font-weight:normal;
+	color:#cc0000;
+}
+.chartC5{
+	padding:3px 3px 3px 3px;
+	background-color:#DEDEDE;
+	font-weight:bold;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #aaaaaa;
+}

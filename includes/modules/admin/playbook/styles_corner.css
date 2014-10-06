@@ -1,0 +1,78 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.left_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:113px;
+	float:left;
+	z-index:100;
+}
+
+.right_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:577px;
+	float:right;
+	z-index:1
+}
+
+.menu_category{
+	padding-bottom:20px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#666633;
+}
+
+.menu_list{
+	font-size:11px;
+	font-weight:normal;
+	text-decoration:none;
+	color:#333333;
+}
+.menu_list a:link, .menu_list a:active, .menu_list a:visited{
+	text-decoration:none;
+	color:#333333;
+}
+.menu_list a:hover{
+	text-decoration:none;
+	color:#ff0000;
+}
+
+.movie{
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+.movieContainer{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:577px;
+	height:450px;
+	padding:30px 0px 30px 0px;
+	color:#CC0000;
+	text-align:center;
+	vertical-align:middle;
+	border:1px dashed #000000;
+}
+
+.commentary{
+	line-height:2em;
+}
+.commentary a:link, .commentary a:active, .commentary a:visited{
+	color:#000000;
+}
+.commentary a:hover{
+	color:#ff0000;
+}

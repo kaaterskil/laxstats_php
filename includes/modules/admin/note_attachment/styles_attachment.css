@@ -1,0 +1,15 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:620px;
+	padding:10px 20px 10px 20px;
+}
+.chartC2{
+	padding:3px 3px 3px 3px;
+	text-align:center;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}

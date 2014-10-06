@@ -1,0 +1,41 @@
+/* CSS Document */
+
+.body_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:700px;
+	padding:0px 30px 0px 30px;
+}
+.left_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:470px;
+	float:left;
+}
+.right_container{
+	position:relative;
+	top:0px;
+	left:0px;
+	width:220px;
+	margin-left:10px;
+	float:right;
+}
+.chartL3{
+	padding:3px;
+	font-style:italic;
+	color:#990000;
+	border-bottom:1px solid #cccccc;
+}
+.form_label2{
+	padding:3px 3px 3px 3px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:10px;
+	font-weight:normal;
+	color:#666666;
+	border-bottom:1px solid #cccccc;
+}
+.form_text2{
+	border-bottom:1px solid #cccccc;
+}
