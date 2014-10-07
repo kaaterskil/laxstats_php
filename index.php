@@ -1,5 +1,5 @@
 <?php
-//load initialiation files
+//load initialization files
 require('includes/application_top.php');
 
 //load html header
