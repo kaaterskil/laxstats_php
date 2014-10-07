@@ -55,6 +55,7 @@ function get_player_personal_info($playerMasterRef, $param = ''){
 function draw_player_select($teamRef, $playerMasterRef, $page_ref){
 	global $db;
 	$option_array = array();
+	$season = '';
 	$sql = 'SELECT IF(pm.FName != "", CONCAT_WS(" ", pm.FName, pm.LName),
 				pm.LName) AS player_name, pm.reference, p.jerseyNo, t.season
 			FROM playerMaster pm
@@ -62,7 +63,7 @@ function draw_player_select($teamRef, $playerMasterRef, $page_ref){
 				ON pm.reference = p.playerMasterRef
 			INNER JOIN teams t
 				USING(teamRef)
-			WHERE t.teamRef = "'.$teamRef.'"
+			WHERE t.teamRef = "' . $teamRef . '"
 			ORDER BY p.jerseyNo';
 	$players = $db->db_query($sql);
 	while(!$players->eof){
@@ -73,19 +74,19 @@ function draw_player_select($teamRef, $playerMasterRef, $page_ref){
 		$season = $players->field['season'];
 		
 		//process data
-		$params = 'pmr='.$pmr.'&s='.$season;
+		$params = 'pmr=' . $pmr . '&s=' . $season;
 		$href = set_href($page_ref, $params);
 		
 		//set option
 		$option_array[] = array(
 			'value' => $href,
-			'label' => $jerseyNo.' '.$player_name
+			'label' => $jerseyNo . ' ' . $player_name
 		);
 		
 		//increment
 		$players->move_next();
 	}
-	$params = 'pmr='.$playerMasterRef.'&s='.$season;
+	$params = 'pmr=' . $playerMasterRef . '&s=' . $season;
 	$selected_value = set_href($page_ref, $params);
 	$onChange = 'changePlayer(this.options[this.selectedIndex].value);';
 	echo 'Player: '.draw_select_element('player', $option_array, $selected_value, $onChange);

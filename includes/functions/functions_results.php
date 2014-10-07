@@ -65,8 +65,10 @@ function set_months($season, $selected_month, $page_ref){
  * @return string
  */
 function get_month_name($month){
-	$months = ["", "January", "February", "March", "April", "May", "June",
-		"July", "August", "September", "October", "November", "December"];
+	$months = array(
+		"", "January", "February", "March", "April", "May", "June",
+		"July", "August", "September", "October", "November", "December"
+	);
 	return $months[intval($month)];
 }
 
